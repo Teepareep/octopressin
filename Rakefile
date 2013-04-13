@@ -6,7 +6,13 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 #ssh_user       = "user@domain.com"
 #ssh_port       = "22"
-document_root  = "/var/www/nickteeple.com/public_html/"
+
+#old digitalocean tutorial location
+#document_root  = "/var/www/nickteeple.com/public_html/"
+
+#new centmin installation location
+document_root	= "/home/nginx/domains/nickteeple.com/public/"
+
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
