@@ -9,9 +9,11 @@ require "stringex"
 
 #old digitalocean tutorial location
 #document_root  = "/var/www/nickteeple.com/public_html/"
-
 #new centmin installation location
-document_root	= "/home/nginx/domains/nickteeple.com/public/"
+#document_root	= "/home/nginx/domains/nickteeple.com/public/"
+#modified centmin install location so I can rake deploy properly
+document_root  = "/home/nick/public/"
+
 
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
