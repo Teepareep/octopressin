@@ -4,7 +4,7 @@ title: "Email Yourself When A Process Finishes"
 date: 2013-04-16 13:11
 comments: true
 categories: [bash, linux, cpanel]
-published: false
+published: true
 ---
 
 If you write a command in bash that will take a while, consider the following:
